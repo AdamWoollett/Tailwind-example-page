@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Valheim in Tailwind</title>
+</head>
+<body>
+    <header class="bg-emerald-400 p-1 flex justify-between">
+        <h1 class="text-white md:text-xl sm:text-3xl font-bold">My Tailwind Website</h1>
+        <nav>
+            <a href="#home" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 block text-md sm:inline sm:text-xl">Home</a>
+            <a href="#gallery" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 block text-md sm:inline sm:text-xl">Gallery</a>
+            <a href="#about" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 block text-md sm:inline sm:text-xl">About us</a>
+            <a href="#contact" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 block text-md sm:inline sm:text-xl">Contact</a>
+        </nav>
+    </header>
+<div class="h-screen flex justify-center items-center">
+   <div class="flex justify-center items-center text-center flex-col w-256 h-128 border-2 border-emerald-900 p-2 bg-[url('Night-time-2.jpg')] bg-cover content-center">
+       <h1 class="text-4xl underline underline-offset-4 bg-emerald-100 p-1 w-64 m-1 border border-emerald-700">Tailwind</h1>
+       <p class="bg-emerald-100 p-1">Tailwind is an awesome framework for CSS that uses utility classes to make the  
+       process of styling way easier.</p>
+       <p class="bg-emerald-100 p-1">You can use tailwind yourself just click the link below</p><br>
+       <a href="https://tailwindcss.com"><p class="content-center bg-emerald-200 text-emerald-500 p-1 text-xl border font-bold w-128 m-1 hover:bg-emerald-700 hover:scale-105">Tailwind Website</p></a>
+   </div> 
+</div>
+<div class="flex justify-center grid grid-cols-3 gap-4 p-3 bg-gradient-to-r from-emerald-400 to-emerald-100">
+    <img class="w-128 h-64 border-2 border-emerald-900 p-1" src="gallery/image1.jpg">
+    <img class="w-128 h-64 border-2 border-emerald-900 p-1" src="gallery/image2.jpg">
+    <img class="w-128 h-64 border-2 border-emerald-900 p-1" src="gallery/image3.jpg">
+    <img class="w-128 h-64 border-2 border-emerald-900 p-1" src="gallery/image4.jpg">
+    <img class="w-128 h-64 border-2 border-emerald-900 p-1" src="gallery/image5.jpg">
+    <img class="w-128 h-64 border-2 border-emerald-900 p-1" src="gallery/image6.jpg">
+    <img class="w-128 h-64 border-2 border-emerald-900 p-1" src="gallery/image7.jpg">
+    <img class="w-128 h-64 border-2 border-emerald-900 p-1" src="gallery/image8.jpg">
+    <img class="w-128 h-64 border-2 border-emerald-900 p-1" src="gallery/image9.jpg">
+</div>
+
+    <footer class="bg-emerald-400 flex justify-center text-center p-2">
+        <nav class="m-2">
+            <a href="#home" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 block text-md sm:inline sm: text-xl">Home</a>
+            <a href="#gallery" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 block text-md sm:inline sm: text-xl">Gallery</a>
+            <a href="#about" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 block text-md sm:inline sm: text-xl">About us</a>
+            <a href="#contact" class="m-1 border text-emerald-900 bg-emerald-200 rounded border-emerald-700 p-0.5 block text-md sm:inline sm: text-xl">Contact</a>
+        </nav>
+        <p class="text-emerald-500 p-1 m-2 text-xl border font-bold hover:bg-emerald-700 hover:scale-105">&copy; Valheim in Tailwind ltd.</p>
+
+    <p class="border m-2 p-1">44 Address Road <br>
+        LivingPlace<br>
+        4444
+    </p>
+    <p class="border m-2 p-1">Brought to you by TailwindCSS</p>
+    </footer>
+</body>
+</html>
